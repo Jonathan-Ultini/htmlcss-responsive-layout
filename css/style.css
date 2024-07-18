@@ -1,0 +1,69 @@
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Generics */
+body {
+  font-family: Montserrat, 'Helvetica Neue', sans-serif;
+  background-color: #F6F5F3;
+}
+
+/* Utils */
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 24px;
+  color: #FF9614;
+  text-transform: uppercase;
+  font-family: 'Nerko One', cursive;
+}
+
+.recipe-header h2:first-child {
+  padding-top: 1rem;
+  color: grey;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 17px;
+}
+
+.rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating span {
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.rating button {
+  background-color: #FFA500;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.video-container {
+  margin-top: 10px;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 200px;
+}
