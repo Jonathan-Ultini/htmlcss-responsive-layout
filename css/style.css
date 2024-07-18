@@ -13,7 +13,7 @@ body {
 
 /* Utils */
 .container {
-  max-width: 400px;
+  max-width: 1080px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -86,7 +86,6 @@ header h1 {
   height: 200px;
 }
 
-.col {}
 
 .recipe-info {
   background-color: #e3e2e2;
@@ -122,4 +121,91 @@ header h1 {
 
 .marg-rig-5 {
   margin-right: 5px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f8f8;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.buttons button {
+  width: 60px;
+  height: 60px;
+  border-radius: 45%;
+  border: none;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button i {
+  font-size: 24px;
+}
+
+.fa-facebook {
+  color: #1a77f3;
+}
+
+.fa-twitter {
+  color: #009EFF;
+}
+
+.fa-instagram {
+  color: #ff1a1a;
+}
+
+.fa-pinterest {
+  color: #ff0505;
+}
+
+.fa-youtube {
+  color: #ff1a1a;
+}
+
+
+/*#: presentation*/
+
+.presentation h1 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.border-b {
+  border-bottom: 2px solid black;
+  width: 20%;
+}
+
+.presentation img {
+  width: 50%;
+  text-align: center;
+}
+
+/*#: footer*/
+
+footer {
+  background-color: #7C69A4;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: white;
+  padding: 10px;
 }
